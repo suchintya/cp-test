@@ -1,0 +1,1 @@
+sudo printf "* * * * * ubuntu /home/ubuntu/go/src/github.com/suchintya/cp-test/randomno\n" | sudo tee /etc/cron.d/cptest

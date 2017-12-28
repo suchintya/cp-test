@@ -21,8 +21,9 @@ func main() {
 	fmt.Printf(rStr)
 
 	filename := "file"+rStr
+	homeDir := "/home/ubuntu/go/src/github.com/suchintya/cp-test/"
 
-	f, err := os.Create(filename)
+	f, err := os.Create(homeDir+filename)
 	check(err)
 
 	defer f.Close()
